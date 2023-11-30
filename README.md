@@ -9,3 +9,4 @@
 使用YOLOv8在kaggle的The PCB-AoI Public Dataset資料集上預先訓練好模型。在設定好模型路徑之後，即可瀏覽資料夾中的圖片，並調用預訓練的YOLOv8模型對其進行預測，再將預測結果顯示於GUI上面。
 
 # 環境設置
+TBA.
