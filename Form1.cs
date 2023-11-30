@@ -17,9 +17,9 @@ namespace YOLO_GUI
         public Form1()
         {
             InitializeComponent();
-            textBox2.Text = @"C:\Users\asus\anaconda3\python.exe";
-            textBox3.Text = @"C:\Users\asus\source\repos\YOLO_GUI\YOLO_runtime.py";
-            textBox4.Text = "C:\\Users\\asus\\source\\repos\\YOLO_GUI\\results.jpg";
+            textBox2.Text = @"C:\Users\asus\anaconda3\python.exe"; //預設路徑，可改成自訂路徑
+            textBox3.Text = @"C:\Users\asus\source\repos\YOLO_GUI\YOLO_runtime.py"; //預設路徑，可改成自訂路徑
+            textBox4.Text = "C:\\Users\\asus\\source\\repos\\YOLO_GUI\\results.jpg"; //預設路徑，可改成自訂路徑
 
             form2 = new Form2();
             form2.MessageUpdated += UpdateTextBox;
